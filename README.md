@@ -1,17 +1,15 @@
-# Ember-toggle-form-lock
+# Ember Toggle Lock Form
 
-This README outlines the details of collaborating on this Ember addon.
+A tool for locking forms with the ability to unlock them.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+* `ember install ember-toggle-form-lock`
 
-## Running
+## Dependencies
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+* jquery
+* font-awesome (not included)
 
 ## Running Tests
 

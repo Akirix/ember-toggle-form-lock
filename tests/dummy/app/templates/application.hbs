@@ -1,3 +1,10 @@
 <h2 id="title">Welcome to Ember</h2>
+{{#toggle-form-lock formIsLocked=formIsLocked}}
+    <label>Input Test</label>
+    {{input type='text' class='form-control' placeholder='Test'}}
+    <button {{action 'toggleLock'}} class="btn btn-default btn-sm" type="button">
+        <i id="toggle-form-lock" class="fa fa-lock"></i>
+    </button>
+{{/toggle-form-lock}}
 
 {{outlet}}

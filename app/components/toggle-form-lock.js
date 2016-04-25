@@ -1,0 +1,1 @@
+export { default } from 'ember-toggle-form-lock/components/toggle-form-lock';
