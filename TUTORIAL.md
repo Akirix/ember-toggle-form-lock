@@ -129,7 +129,8 @@ export default Ember.Route.extend( ToggleFormLockRouteMixin, {
   {{input type='text' class='form-control' placeholder='This input is not affected'}}
 </form>
 ```
-6. You should now be able to serve the dummy application and test out the addon! `ember s`
+6. You should now be able to serve the dummy application and test out the addon! `ember s`  
+
 ## Setting up NPM
 1. If you don't already have a profile with npm, create one at https://www.npmjs.com/signup.
 2. Go to your terminal, type `npm adduser` and follow the prompts. It will ask you enter your username, password, and email associated with your npm profile.
