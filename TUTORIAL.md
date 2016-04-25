@@ -2,10 +2,10 @@
 This tutorial walks through how the ember-toggle-lock form addon was created. The purpose of this tutorial is to show you how to create an addon with mixins. It doens't cover the specifics of how the toggle-form-lock addon works.
 
 ## Getting started
-Personally, in my development folder I've created a folder designated for Ember addons called **ember-addons**. Navigate to the folder you would like to create addons in.
-1. `ember addon ember-toggle-lock-form` (creates an addon and a folder of the same name: ember-toggle-lock-form)
-2. `cd ember-toggle-lock-form`
-3. Now open the addon/director with your editor of choice (sublime, atom, webstrom, etc.)
+Personally, in my development folder I've created a folder designated for Ember addons called **ember-addons**. Navigate to the folder you would like to create addons in.  
+1. `ember addon ember-toggle-lock-form` (creates an addon and a folder of the same name: ember-toggle-lock-form)  
+2. `cd ember-toggle-lock-form`  
+3. Now open the addon/director with your editor of choice (sublime, atom, webstrom, etc.)  
 4. Navigate to `package.json` and move `ember-cli-htmlbars` from `devDependencies` object into the `dependencies` object. If you forget to do this, you'll get an error message when you try to serve the dummy application that looks something like this:
 
 `Addon templates were detected, but there are no template compilers registered for <addon-folder-name>. Please make sure your template precompiler (commonly 'ember-cli-htmlbars') is listed in 'dependencies' (NOT 'devDependencies') in <addon-folder-name>'s 'package.json'.`
