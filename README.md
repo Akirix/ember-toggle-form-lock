@@ -4,6 +4,9 @@ A tool for locking forms with the ability to unlock them. To see the steps for c
 ## Installation
 
 * `ember install ember-toggle-form-lock`
+* Import the controller and route mixin where you want to use the addon respectively.  
+`import ToggleFormLockControllerMixin from "ember-toggle-form-lock/mixins/toggle-form-lock-controller";`  
+`import ToggleFormLockRouteMixin from "ember-toggle-form-lock/mixins/toggle-form-lock-route";`  
 
 ## Dependencies
 
