@@ -1,6 +1,5 @@
 # Ember Toggle Lock Form
-
-A tool for locking forms with the ability to unlock them.
+A tool for locking forms with the ability to unlock them. To see the steps for creating an addon with a component and mixins, visit https://github.com/Akirix/ember-toggle-form-lock/blob/master/TUTORIAL.md.
 
 ## Installation
 
