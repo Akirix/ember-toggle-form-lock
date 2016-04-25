@@ -11,9 +11,9 @@ Personally, in my development folder I've created a folder designated for Ember 
 `Addon templates were detected, but there are no template compilers registered for <addon-folder-name>. Please make sure your template precompiler (commonly 'ember-cli-htmlbars') is listed in 'dependencies' (NOT 'devDependencies') in <addon-folder-name>'s 'package.json'.`
 
 ## Adding dependencies
-Just like any other application, if we need a dependency we have to run `ember install`, `npm install`, or `bower install` respectively.
-1. `npm install jquery && bower install jquery`
-2. For font-awesome, add `<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">` to `tests\dummy\app\index.html` just below `{{content-for "head"}}`
+Just like any other application, if we need a dependency we have to run `ember install`, `npm install`, or `bower install` respectively.  
+1. `npm install jquery && bower install jquery`  
+2. For font-awesome, add `<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">` to `tests\dummy\app\index.html` just below `{{content-for "head"}}`  
 
 
 ## Creating a Component in your Addon
