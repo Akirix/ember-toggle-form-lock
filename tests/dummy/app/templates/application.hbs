@@ -1,10 +1,18 @@
 <h2 id="title">Welcome to Ember</h2>
-{{#toggle-form-lock formIsLocked=formIsLocked}}
-    <label>Input Test</label>
-    {{input type='text' class='form-control' placeholder='Test'}}
+{{#toggle-form-lock formIsLocked=formIsLocked}}  {{!-- Wrapper to lock the input field --}}
+    {{!-- This input is locked --}}
+    {{input type='text' class='form-control' placeholder='This input locks/unlocks'}}
+    {{input type='text' class='form-control' placeholder='This one too'}}
+    {{!-- This input is locked --}}
+
+    {{!-- A lock/unlock buton for the form  (use the 'toggleLock' action)--}}
     <button {{action 'toggleLock'}} class="btn btn-default btn-sm" type="button">
         <i id="toggle-form-lock" class="fa fa-lock"></i>
     </button>
+        {{!-- A lock/unlock buton for the form --}}
 {{/toggle-form-lock}}
+<form class="" action="" method="post">
+  {{input type='text' class='form-control' placeholder='This input is not affected'}}
+</form>
 
 {{outlet}}
